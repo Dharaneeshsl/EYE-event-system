@@ -1,4 +1,3 @@
-// Certificates.jsx
 import { useEffect, useState } from 'react';
 import { useEvent } from '../context/EventContext';
 import { getCertificates, uploadCertificateTemplate, createCertificate, getForms, deleteCertificate as apiDeleteCertificate, generateCertificate as apiGenerateCertificate } from '../services/api';
